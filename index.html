@@ -1,0 +1,156 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeyhun Gurbanzade | Front-End Developer</title>
+        <meta name="keywords" content="Html5,Css3,JavaScript">
+        <meta
+          name="description"
+          content="Jeyhun Gurbanzade | Front-End Developer"
+        />
+        <!-- Fonts Google -->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
+        <!-- Font Awesome -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/global.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <!-- Tablet -->
+        <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+      </head>
+    <body>
+        <header class="bg-dark-blue">
+            <div class="container">
+                <nav id="navbar">
+                    <h1 class="heading-small">Jeyhun Gurbanzade</h1>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="home">
+            <img src="images/JeyhunCVImage.jpg" alt="Jeyhun Gurbanzade">
+            
+            <div class="name text-center">
+                <h2 class="heading-big">Jeyhun Gurbanzade</h2>
+                <p>Front-End Developer</p>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">Go to Contacts</a>
+        </section>
+
+        <section id="portfolio" class="bg-dark-blue">
+            <h3 class="text-center heading-medium">Jeyhun's portfolio</h3>
+
+            <div class="items">
+                <article class="item">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, non.</p>
+                </article>
+                <article class="item">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>Project 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, labore.</p>
+                </article>
+                <article class="item">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>Project 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, nemo.</p>
+                </article>
+            </div>
+
+        </section>
+
+        <section id="courses">
+            <h3 class="text-center heading-medium">Courses</h3>
+            <div class="container">
+                <div class="courses">
+                    <!-- Course 1 -->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/html_css_image.png" alt="html_css_image" width="280px" height="200px">
+                            <span>40% sale</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">Html5&Css3 fundamentals</div>
+                            <div class="description">Html5&Css3 fundamentals for complete beginners</div>
+                            <div class="instructor">Jeyhun Gurbanzade</div>
+                            <div class="rating">Rating: 4.5 | (28.000 ratings)</div>
+                        </div>
+                    </div>
+                    <!-- Course 2 -->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/js_image.jpeg" alt="html_css_image" width="280px" height="200px">
+                            <span>40% sale</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">JavaScript fundamentals</div>
+                            <div class="description">JavaScript fundamentals for complete beginners</div>
+                            <div class="instructor">Jeyhun Gurbanzade</div>
+                            <div class="rating">Rating: 4.3 | (20.000 ratings)</div>
+                        </div>
+                    </div>
+                    <!-- Course 3 -->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/angular_image.jpg" alt="html_css_image" width="280px" height="200px">
+                            <span>40% sale</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">Angular foundamentals</div>
+                            <div class="description">Angular fundamentals for complete beginners</div>
+                            <div class="instructor">Jeyhun Gurbanzade</div>
+                            <div class="rating">Rating: 4.2 | (17.000 ratings)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="bg-dark-blue">
+            <div class="contact-form">
+                <form>
+                    <h4 class="text-center heading-medium">Contact me</h4>
+
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"></label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea name="message" id="message" class="form-control" rows="5" placeholder="Message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-block">Send</button>
+                </form>
+
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+            
+        </footer>
+
+    </body>
+</html>
